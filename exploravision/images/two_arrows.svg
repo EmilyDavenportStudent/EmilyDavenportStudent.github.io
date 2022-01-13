@@ -1,0 +1,13 @@
+<svg id="two_arrows" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="368" height="275" viewBox="0 0 368 275">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_15" data-name="Rectangle 15" width="368" height="275" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_23" data-name="Group 23" clip-path="url(#clip-path)">
+    <path id="Path_17" data-name="Path 17" d="M106.664,151.421a13.684,13.684,0,0,1-7.622-2.312L6.129,87.166a13.764,13.764,0,0,1,0-22.9L99.042,2.319a13.765,13.765,0,0,1,15.272,22.9L38.58,75.714l75.735,50.49a13.765,13.765,0,0,1-7.65,25.217" transform="translate(0 0.001)" fill="#fff"/>
+    <path id="Path_18" data-name="Path 18" d="M354.447,45.532H13.765a13.765,13.765,0,1,1,0-27.53H354.447a13.765,13.765,0,1,1,0,27.53" transform="translate(0 43.948)" fill="#fff"/>
+    <path id="Path_19" data-name="Path 19" d="M85.78,187.418A13.765,13.765,0,0,1,78.13,162.2l75.735-50.49L78.13,61.221A13.765,13.765,0,0,1,93.4,38.316l92.913,61.942a13.765,13.765,0,0,1,0,22.9L93.4,185.105a13.692,13.692,0,0,1-7.622,2.313" transform="translate(175.767 87.889)" fill="#fff"/>
+    <path id="Path_20" data-name="Path 20" d="M354.447,81.532H13.765a13.765,13.765,0,0,1,0-27.53H354.447a13.765,13.765,0,1,1,0,27.53" transform="translate(0 131.833)" fill="#fff"/>
+  </g>
+</svg>

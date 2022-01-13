@@ -1,0 +1,12 @@
+<svg id="microphone" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="181" height="275" viewBox="0 0 181 275">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="181" height="275" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_19" data-name="Group 19" clip-path="url(#clip-path)">
+    <path id="Path_12" data-name="Path 12" d="M65.66,184.309h0A52.66,52.66,0,0,1,13,131.649V52.66a52.66,52.66,0,0,1,105.319,0v78.989a52.66,52.66,0,0,1-52.66,52.66" transform="translate(25.032 0)" fill="#fff"/>
+    <path id="Path_13" data-name="Path 13" d="M90.691,143.394A90.792,90.792,0,0,1,0,52.7a11.7,11.7,0,1,1,23.4,0,67.287,67.287,0,1,0,134.574,0,11.7,11.7,0,1,1,23.4,0,90.792,90.792,0,0,1-90.691,90.691" transform="translate(0 78.947)" fill="#fff"/>
+    <path id="Path_14" data-name="Path 14" d="M38.7,144.064a11.7,11.7,0,0,1-11.7-11.7V79.7a11.7,11.7,0,0,1,23.4,0v52.66a11.7,11.7,0,0,1-11.7,11.7" transform="translate(51.989 130.936)" fill="#fff"/>
+  </g>
+</svg>

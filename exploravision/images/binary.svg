@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="228" height="192" viewBox="0 0 228 192">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 47px;
+        font-family: OpenSans, Open Sans;
+      }
+    </style>
+  </defs>
+  <text id="Binary" class="cls-1"><tspan x="6.506" y="50">01110011 </tspan><tspan x="6.506" y="114">01110101 </tspan><tspan x="6.506" y="178">01110011 </tspan></text>
+</svg>

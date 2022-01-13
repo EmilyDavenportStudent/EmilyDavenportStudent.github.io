@@ -1,0 +1,265 @@
+/* Fonts */
+
+/* Transat 400 700 normal italic */
+/* Open-sans 400 700 normal italic */
+@import url("https://use.typekit.net/dhq0aab.css");
+
+/* Base Styles / Custom Props */
+
+:root {
+    /* Colors */
+    --clr-light: #FFFFFF;
+    --clr-dark: #000E15;
+    --clr-dark-alt: #262840;
+    --clr-accent: #119DA4;
+    --clr-accent-alt: #196E8A;
+
+    /* Fonts */
+    --fnt-prim: "Transat";
+    --fnt-alt: "Open-sans";
+}
+
+body {
+    background-color: var(--clr-dark-alt);
+
+    width: 100vw;
+    height: 100vh;
+
+    overflow: auto;
+
+    /* Grid */
+    display: grid;
+    grid-template: 20% 10% 70% / 100%;
+}
+
+h1, h2 {
+    font-family: var(--fnt-prim);
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--clr-dark);
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: var(--clr-light);
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: var(--fnt-prim);
+
+    color: var(--clr-light);
+}
+
+p {
+    font-family: var(--fnt-alt);
+    font-weight: 400;
+    color: var(--clr-light);
+    font-size: 1.5rem;
+}
+
+img {
+    max-height: 100%;
+}
+
+.img-landscape {
+    max-width: 100%;
+}
+
+.button {
+    font-family: var(--fnt-prim);
+    font-weight: 700;
+    font-size: 1.5rem;
+
+    color: var(--clr-light);
+    background-color: var(--clr-accent);
+
+    text-decoration: none;
+
+    padding: 1rem 3rem 1rem 3rem;
+
+    border-radius: 2rem;
+
+    display: inline-block;
+}
+
+.center-box {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: var(--clr-light);
+}
+
+header>h1 {
+    font-weight: 400;
+}
+
+.logo {
+    max-height: 60%;
+}
+
+/* Nav */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navlink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: var(--clr-accent);
+
+    color: var(--clr-light);
+
+    font-family: var(--fnt-alt);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    background-color: var(--clr-accent-alt);
+}
+
+/* Main */
+
+main {
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template: 100% / 1fr 1fr;
+
+    box-sizing: border-box;
+}
+
+#history {
+    width: 80%;
+    grid-template: 1fr 2fr / 100%;
+    margin: auto;
+
+    align-items: center;
+    justify-items: center;
+}
+
+#uses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    align-items: center;
+    justify-items: center;
+}
+
+#issues {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+
+    align-items: center;
+    justify-items: center;
+}
+
+#vision {
+    grid-template-columns: 1fr 1fr;
+    
+    align-items: center;
+    justify-items: center;
+}
+
+/* Section */
+
+section {
+    width: 70%;
+    height: 80%;
+
+    display: grid;
+    grid-template-rows: repeat(3, calc(calc(100% / 3) - calc(2rem/3)));
+
+    gap: 1rem;
+
+    align-items: center;
+    justify-items: center;
+
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+/* Graphic */
+
+.graphic {
+    height: 100%;
+    width: 100%;
+
+    padding: 5%;
+    box-sizing: border-box;
+
+    display: grid;
+    grid-template: repeat(3, calc(calc(100% / 3) - calc(2rem/3))) / 100%;
+
+    gap: 1rem;
+
+    align-self: center;
+    justify-self: center;
+
+    justify-items: center;
+}
+
+.graphic>img {
+    box-sizing: border-box;
+}
+
+/* Article */
+
+article {
+    margin: 5%;
+
+    display: grid;
+    grid-template-rows: 1fr 2fr 3fr;
+}
+
+.vision-article {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Aside */
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside>* {
+    margin: 1rem;
+}
